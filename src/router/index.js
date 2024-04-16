@@ -39,6 +39,7 @@ import StudentHouse from "../pages/StudentHouse.vue";
 import PageNotFound from "../pages/PageNotFound.vue";
 import Admin from "../pages/admin.vue";
 import AddNews from "../pages/AddNews.vue";
+import AddText from "../pages/AddText.vue";
 import UpdateNews from "../pages/UpdateNews.vue";
 import Prachka from "../pages/Prachka.vue";
 import barbe from "../pages/Barbe.vue";
@@ -61,6 +62,12 @@ const routes = [
     name: "AddNews",
     component: AddNews,
     meta: { requiresAuth: true, hideFooter: true },
+  },
+  {
+    path: "/addText",
+    name: "AddText",
+    component: AddText,
+    meta: { hideFooter: true },
   },
   {
     path: "/adminPanelNewsToUpdateNews/:id",

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="text-center">
       <h1 class="m-5 text-center" style="color: #0077ff">
-        Объявления
+        {{ text }}
         <hr />
       </h1>
     </div>
@@ -36,10 +36,12 @@ export default {
   data() {
     return {
       cards: [],
+      text: "",
     };
   },
   created() {
     this.fetchNews();
+    this.fetchText();
   },
   methods: {
     formatDate(value) {
@@ -78,6 +80,22 @@ export default {
         }));
       } catch (error) {
         console.error("Error fetching news:", error);
+      }
+    },
+    async fetchText() {
+      try {
+        const response = await axios.get(
+          "http://localhost:3000/api/text/661e16febaea5955518ee025",
+          {
+            withCredentials: true,
+          }
+        );
+
+        // Assuming the response contains a property named "text"
+        this.text = response.data.text;
+        console.log(response.data.text);
+      } catch (error) {
+        console.error("Error fetching text:", error);
       }
     },
   },
