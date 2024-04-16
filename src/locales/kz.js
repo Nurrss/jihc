@@ -250,11 +250,11 @@ export default {
   
 
   // Column3,
-  Column3H1: "Статистика",
-  Column3P1: "Жетістіктер",
+  Column3H1: "Маңызды сандар",
+  Column3P1: "Мұғалімдердің IELTS орташа баллы",
   Column3P2: "Мұғалім",
   Column3P3: "Студент",
-  Column3P4: "Түлек",
+  Column3P4: "Негізгі оқу бағыттары",
   
 
   //   Footer Texts

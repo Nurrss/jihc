@@ -111,7 +111,7 @@
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active crs-img-11"></div>
+            <div class="alumni-item active crs-img-11"></div>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active crs-img-21"></div>
+            <div class="alumni-item active crs-img-21"></div>
           </div>
         </div>
       </div>
@@ -213,7 +213,8 @@
         </div>
       </div>
     </div> -->
-    <div class="row container mb-5 d-flex justify-content-center">
+
+    <div class="row container mb-5">
       <div class="size text-center">
         <h1 class="" style="color: #0077ff">
           {{ $t("AsoocH4") }}
@@ -225,12 +226,12 @@
       </div>
 
       <div
-        id="myCarousel"
+        id="mystore"
         class="container carousel slide mt-5"
-        data-bs-ride="carousel"
+        data-bs-ride="store"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active crs-img-31"></div>
+          <div class="alumni-item active crs-img-31"></div>
         </div>
       </div>
     </div>
@@ -246,8 +247,40 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .carousel-item {
-  height: 460px;
+  height: 360px;
 }
+
+.alumni-item {
+  height: 500px;
+  
+}
+
+
+.crs-img-1 {
+  background: url("../assets/Jameco_store/Item1.png");
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+}
+.crs-img-2 {
+  background: url("../assets/Jameco_store/Item2.png");
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+}
+.crs-img-3 {
+  background: url("../assets/Jameco_store/Item3.png");
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+}
+.crs-img-4 {
+  background: url("../assets/Jameco_store/Item4.png");
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+}
+
 .crs-img-11 {
   background: url("../assets/meetup.png");
   background-size: cover;
@@ -284,7 +317,7 @@ export default {
   background-position: center;
   width: 100%;
 }
-.crs-img-31 {
+  .crs-img-31 {
   background: url("../assets/30year.png");
   background-size: cover;
   background-position: center;
@@ -305,11 +338,11 @@ export default {
 
 @media (max-width: 991px) {
   .carousel-item {
-    height: 350px;
+    height: 550px;
   }
   .carousel-control-prev img,
   .carousel-control-next img {
-    height: 8%;
+    height: 10%;
   }
 }
 
@@ -317,6 +350,10 @@ export default {
   .carousel-item {
     height: 250px;
   }
+  .store-item {
+    height: 250px;
+  }
+
   .carousel-control-next img {
     height: 8%;
   }

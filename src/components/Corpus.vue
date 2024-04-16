@@ -24,7 +24,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="2"
         aria-label="Slide 3"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -32,7 +32,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="3"
         aria-label="Slide 4"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -40,7 +40,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="4"
         aria-label="Slide 5"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -48,7 +48,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="5"
         aria-label="Slide 6"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -64,7 +64,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="7"
         aria-label="Slide 8"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -72,7 +72,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="8"
         aria-label="Slide 9"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -80,7 +80,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="9"
         aria-label="Slide 10"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -88,7 +88,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="10"
         aria-label="Slide 11"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -96,7 +96,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="11"
         aria-label="Slide 12"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
       <button
@@ -104,7 +104,7 @@
         data-bs-target="#myCarousel"
         data-bs-slide-to="12"
         aria-label="Slide 13"
-        class="active"
+        class=""
         aria-current="true"
       ></button>
     </div>

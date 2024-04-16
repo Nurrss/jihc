@@ -31,7 +31,7 @@
               style="display: list-item; align-items: center"
               aria-current="page"
               href="mailto:info@jihc.kz"
-              ><i class="bi bi-envelope h5 m-0 me-2"></i>
+              ><i class="bi bi-envelope-fill h5 m-0 me-2"></i>
               <p class="m-0">
                 {{ $t("SecondNavP1") }}
 
@@ -46,7 +46,7 @@
               style="display: list-item; align-items: center"
               aria-current="page"
               href="tel:8-707-802-00-88"
-              ><i class="bi bi-telephone h5 m-0 me-2"></i>
+              ><i class="bi bi-telephone-fill h5 m-0 me-2"></i>
               <p class="m-0">
                 {{ $t("SecondNavP2") }}
                 <br />
