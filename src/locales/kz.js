@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export default {
   // DocumentPage Texts
   DocumentPage: {
@@ -12,32 +14,31 @@ export default {
   BoardH1: "Қамқоршылар кеңесі",
   // ComandPage Texts
   ComandPage: {
-    title: "Ұйым",
-    podtitle: "Басты бет / Ұйым",
+    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621feac2f005d7bd8f96f50')).data.kz_text,
+    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621ff81ae188541bf27fdd2')).data.kz_text,
   },
-  ComandH1: "Біздің Ұйым",
-  NewsH: "Жаңалықтар",
+  
+  ComandH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662200012f005d7bd8f9706b')).data.kz_text,
+
+  NewsH: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220130ae188541bf27ff4a')).data.kz_text,
   // AsocPage Texts
   LifePage: {
-    title: "Студенттік өмір",
-    podtitle: "Басты бет / Студенттік өмір",
+    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662201d22f005d7bd8f97260')).data.kz_text,
+    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220262c87807c7c70d38a4')).data.kz_text,
   },
-  LifeP1:
-    "Біздің колледждегі студенттік өмір мәдени және спорттық іс-шаралардың алуан түрлілігімен айқын көрінеді. Жыл сайынғы іс-шаралар мен концерттер студенттерге мәдени әртүрлілікке толығымен енуге мүмкіндік беретін жағымды және шабыттандыратын атмосфера жасайды. Сонымен қатар, студенттік клубтар мен ұйымдар көшбасшылық пен әлеуметтік жауапкершілік дағдыларын дамытуға ықпал ететін жарыстарды белсенді түрде өткізеді. Студенттер сонымен қатар спорттық турнирлер мен жаттығулар арқылы белсенді өмір салтын ұнатады, бұл біздің оқу орнымызда достық және жігерлі жағдай жасайды.",
-  LifeP2:
-    "Біздің колледжде ағылшын клубы,түрік клубы, пікірталас сияқты академиялық клубтар бар. Олар студенттерге тілдік дағдыларын кеңейтуге көптеген мүмкіндіктер береді. Бұл клуб студенттердің оқу тәжірибесін байыта отырып, әртүрлі тілдер мен мәдениеттерге енетін бірегей орын. Мұнда олар бір-бірімен сөйлесе алады, интеллектуалды пікірталастарға қатыса алады және қарым-қатынас дағдыларын жетілдіре алады. Тіл клубының арқасында студенттер тек аудиторияда ғана емес, одан тыс жерлерде де колледждің тілдік ортасына ену мүмкіндігіне ие. Бұл сонымен қатар Тілдер мен мәдениеттерге ортақ қызығушылық танытатын студенттер арасында тығыз достық қарым-қатынас орнатуға ықпал етеді.",
-  LifeP3:
-    "Біздің колледжде студенттерге бірегей мүмкіндіктер беретін көптеген спорт клубтары бар. Бұл клубтар физикалық белсенділік пен спортпен шұғылданудың әртүрлі нұсқаларын жасайды. Студенттер футбол, баскетбол, теннис немесе фитнес болсын, өз мүдделеріне сәйкес клубты таңдай алады. Осы клубтардың арқасында студенттер өздерінің фитнестерін жақсартып қана қоймай, олардың құмарлықтарымен бөлісетін жаңа достар табады. Колледждегі спорттық қауымдастық салауатты өмір салтын ғана емес, сонымен қатар студенттер қауымдастығы арасында мықты командалық рухты қалыптастыруға ықпал етеді. Бұл спорттық мүмкіндіктер біздің оқу орнымызды студенттер үшін одан да тартымды етеді.",
-  LifeP4:
-    "Колледж студенттердің көңілін көтеру үшін түрлі іс-шараларды белсенді ұйымдастырады. Ай сайынғы іс-шараларға концерттер, тақырыптық кештер және спорттық жарыстар кіреді, бұл оқу орнында динамикалық атмосфера жасайды. Мұндай бастамалар студенттердің әлеуметтік шеңберін кеңейтуге ғана емес, олардың командалық рухын нығайтуға да ықпал етеді. Колледж сонымен қатар экскурсиялар мен саяхаттарды қоса, көшпелі іс-шараларды ұйымдастырады, бұл студенттерге жаңа тәжірибе алуға және оқудан тыс бос уақытты пайдалануға мүмкіндік береді. Бұл әрекеттер студенттердің үйлесімді тәжірибесін дамыта отырып, оң оқу ортасын жасайды.",
-  LifeH1: "Академиялық үйірмелер",
-  LifeH2: "Спорт үйірмелері",
-  LifeH3: "Іс-шаралар",
+  LifeP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220309ad6599d9ba5887b5')).data.kz_text,
+  LifeP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6622038ead6599d9ba588871')).data.kz_text,
+  LifeP3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662204b9c87807c7c70d3b78')).data.kz_text,
+  LifeP4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662206b4d244c5da9558b434')).data.kz_text,
+
+  LifeH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662207222f005d7bd8f97822')).data.kz_text,
+  LifeH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662207a9ae188541bf280696')).data.kz_text,
+  LifeH3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6622086ec87807c7c70d3f5d')).data.kz_text,
 
   // AsocPage Texts
   AssocPage: {
-    title: "Ассоциация",
-    podtitle: "Басты бет / Ассоциация",
+    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662209322f005d7bd8f97a4c')).data.kz_text,
+    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662209a7c87807c7c70d40b7')).data.kz_text,
   },
   AssocP1: "",
   AssocP2:
@@ -213,9 +214,8 @@ export default {
     "'Денсаулық сақтау саласындағы есепке алу құжаттамасының нысандарын бекіту туралы' Қазақстан Республикасы Денсаулық сақтау министрінің міндетін атқарушының 2020 жылғы 30 қазандағы № ҚР ДСМ-175/2020 бұйрығымен (Нормативтік құқықтық актілерді мемлекеттік тіркеу тізілімінде № 21759 болып тіркелген) бекітілген № 075-У нысаны",
 
   // Hero Texts
-  HeroH1P1: "Сапалы білім",
-  HeroH1P2: "Саналы тәрбие",
-
+  HeroH1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621595b9491387b6ae48f9a')).data.kz_text,
+  HeroH1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662159f49491387b6ae48fbe')).data.kz_text,
   // Column,
   ColumnD1P1: "Құндылыққа бағытталған білім беру",
   ColumnD1P2: "білім",
@@ -228,101 +228,92 @@ export default {
 
 
   // Jumbotron,
-  JumbotronH1P1: "Жамбыл Инновациялық",
-  JumbotronH1P2: "жоғары колледжіне қош",
-  JumbotronH1P3: "келдіңіздер!",
-  JumbotronP1P1:
-    "Білім құндылықтарға, мүмкіндіктерге және шабытқа толы біздің оқу орнына қош келдіңіз. Осы колледждің директоры ретінде Мен сізге әр адамның өз әлеуетін ашуға мүмкіндігі бар бірегей білім беру ортасын ұсынғанымды мақтан тұтамын.",
-  JumbotronP1P2:
-    "Біздің құндылықтарымыздың негізінде сапалы білім алуға деген ұмтылыс жатыр. Біздің колледж әртүрлі білім салаларындағы студенттерге бірегей мүмкіндіктер ұсынады. Біз студенттер идеялармен алмасатын, тәжірибелі оқытушылармен ынтымақтаса алатын және ғылыми жобаларға қатыса алатын инновациялық ортаны құруға тырысамыз.",
-  JumbotronP1P3:
-    "Біздің колледжге деген қызығушылығыңыз үшін рахмет. Мұнда сіз тек білім ғана емес, сонымен қатар ең өршіл мақсаттарыңызға жету үшін шабыт таба алатындығыңызға сенімдіміз.",
-    JumbotronP1P4: "Колледж директоры",
-    JumbotronP1P5: "Бодаубеков Әлішер Рустамұлы",
+  JumbotronH1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215be469264e6a142b3fc3')).data.kz_text,
+  JumbotronH1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215c5d12bdf7b811b7917b')).data.kz_text,
+  JumbotronH1P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215c9812bdf7b811b79181')).data.kz_text,
+  JumbotronP1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215d7eb4d8f21398684e50')).data.kz_text,
+  JumbotronP1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215e3fb4d8f21398684e7e')).data.kz_text,
+  JumbotronP1P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215ed469264e6a142b406c')).data.kz_text,
+  JumbotronP1P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215f1e12bdf7b811b79228')).data.kz_text,
+  JumbotronP1P5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215f5312bdf7b811b7924b')).data.kz_text,
   // Column2,
-  Column2H1: "Біздің артықшылықтарымыз",
-  Column2P1: "Құндылыққа бағытталған білім беру",
-  Column2P2: "4 тілде оқыту",
-  Column2P3: "Модульдік – құзыреттілікке негізделген тәсіл",
-  Column2P4: "Сапалы тәжірибелі мұғалімдер",
-  Column2P5: "Сабақтар WorldSkills Competences, ACCA және 1C стандарттары негізінде жүргізіледі",
-  Column2P6: "Шетелдік және отандық үздік білімі бар мұғалімдер",
+  Column2H1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215fca12bdf7b811b7927c')).data.kz_text,
+  Column2P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662160a0b4d8f21398684f58')).data.kz_text,
+  Column2P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662160cdb4d8f21398684f73')).data.kz_text,
+  Column2P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621612c69264e6a142b4165')).data.kz_text,
+  Column2P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216186b4d8f21398684fee')).data.kz_text,
+  Column2P5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662161ba12bdf7b811b7933e')).data.kz_text,
+  Column2P6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662161f269264e6a142b41d6')).data.kz_text,
   
 
   // Column3,
-  Column3H1: "Маңызды сандар",
-  Column3P1: "Мұғалімдердің IELTS орташа баллы",
-  Column3P2: "Мұғалім",
-  Column3P3: "Студент",
-  Column3P4: "Негізгі оқу бағыттары",
-  
-
+  Column3H1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216263b4d8f21398685067')).data.kz_text,
+  Column3P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621629f12bdf7b811b793c3')).data.kz_text,
+  Column3P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662162ddc1d336237231ae37')).data.kz_text,
+  Column3P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621634d12bdf7b811b79426')).data.kz_text,
+  Column3P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216383b4d8f21398685147')).data.kz_text,
   //   Footer Texts
-  FooterH1: "Байланыс үшін",
-  FooterH2: "Әлеуметтік желілер",
-  FooterL1: "Тараз қ. Пушкина 154",
-
+  FooterH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662163d7c1d336237231aef1')).data.kz_text,
+  FooterH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621641a69264e6a142b4328')).data.kz_text,
+  FooterL1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621645dc1d336237231af78')).data.kz_text,
   //   SecondNav Texts
-  SecondNavP1: "Байланыс үшін",
-  SecondNavP2: "Бізге хабарласыңыз",
-
+  SecondNavP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662164a112bdf7b811b79556')).data.kz_text,
+  SecondNavP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662164e0c1d336237231affc')).data.kz_text,
   //   Navbar Texts
-  NavbarP1: "080003 Тараз қаласы, Пушкин көшесі, 154",
-
+  NavbarP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621659512bdf7b811b79618')).data.kz_text,
   //   ThirdNav Texts
-  ThirdNavNavItem1: "Колледж",
-  ThirdNavNavItem2: "Талапкерлерге",
-  ThirdNavNavItem3: "Мамандықтар",
-  ThirdNavNavItem4: "Инфраструктура",
-  ThirdNavNavItem5: "Студенттерге",
-  ThirdNavNavItem6: "Ата-аналарға",
-  ThirdNavNavItem7: "Жұмыс берушілерге",
-  ThirdNavNavItem8: "Түлектерге",
-  ThirdNavNavItem9: "Календарь",
+  ThirdNavNavItem1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621664a12bdf7b811b79674')).data.kz_text,
+  ThirdNavNavItem2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621668fb4d8f2139868539d')).data.kz_text,
+  ThirdNavNavItem3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662166d369264e6a142b4568')).data.kz_text,
+  ThirdNavNavItem4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621670e12bdf7b811b79749')).data.kz_text,
+  ThirdNavNavItem5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621676312bdf7b811b79793')).data.kz_text,
+  ThirdNavNavItem6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662167a8c1d336237231b20a')).data.kz_text,
+  ThirdNavNavItem7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662167fe12bdf7b811b79863')).data.kz_text,
+  ThirdNavNavItem8: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662168dc69264e6a142b46f4')).data.kz_text,
+  ThirdNavNavItem9: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621692669264e6a142b4744')).data.kz_text,
   //   ThirdNav drop-down item text
-  ThirdNavNavItem1Li1: "Колледж тарихы",
-  ThirdNavNavItem1Li2: "Маңызды фактілер",
-  ThirdNavNavItem1Li3: "Құжаттар",
-  ThirdNavNavItem1Li4: "Команда",
-  ThirdNavNavItem1Li5: "Колледж структурасы",
-  ThirdNavNavItem1Li6: "Қамқоршылар кеңесі",
+  ThirdNavNavItem1Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662169ddb4d8f213986855c6')).data.kz_text,
+  ThirdNavNavItem1Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216a4cc1d336237231b380')).data.kz_text,
+  ThirdNavNavItem1Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216a95b4d8f21398685678')).data.kz_text,
+  ThirdNavNavItem1Li4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216adcb4d8f213986856b7')).data.kz_text,
+  ThirdNavNavItem1Li5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216b2369264e6a142b48b8')).data.kz_text,
+  ThirdNavNavItem1Li6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216b67c1d336237231b4a2')).data.kz_text,
+  ThirdNavNavItem1Li7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6620c41a13a1f3713e5a4b2e')).data.kz_text,
+  
+  ThirdNavNavItem2Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216bb869264e6a142b4943')).data.kz_text,
+  ThirdNavNavItem2Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216bfec1d336237231b55f')).data.kz_text,
+  ThirdNavNavItem2Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216c4312bdf7b811b79bbb')).data.kz_text,
+  
+  ThirdNavNavItem3Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216c81c1d336237231b5f0')).data.kz_text,
+  ThirdNavNavItem3Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
+  ThirdNavNavItem3Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216d18c1d336237231b681')).data.kz_text,
+  
+  ThirdNavNavItem4Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216d5b12bdf7b811b79ce8')).data.kz_text,
+  ThirdNavNavItem4Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216daec1d336237231b711')).data.kz_text,
+  ThirdNavNavItem4Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216dfbb4d8f213986859b4')).data.kz_text,
+  ThirdNavNavItem4Li4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216e4469264e6a142b4c08')).data.kz_text,
+  ThirdNavNavItem4Li5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216e8b12bdf7b811b79e4e')).data.kz_text,
 
-  ThirdNavNavItem2Li1: "Мамандықтар",
-  ThirdNavNavItem2Li2: "Құжаттарды тапсыру",
-  ThirdNavNavItem2Li3: "Ауысу",
+  ThirdNavNavItem5Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ff7b4d8f21398685af4')).data.kz_text,
+  ThirdNavNavItem5Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621705c12bdf7b811b79f23')).data.kz_text,
+  ThirdNavNavItem5Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662170b0c1d336237231b90f')).data.kz_text,
+  ThirdNavNavItem5Li6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662172cec1d336237231ba98')).data.kz_text,
+  ThirdNavNavItem5Li7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621731f12bdf7b811b7a193')).data.kz_text,
+  ThirdNavNavItem5Li8: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621737069264e6a142b4ef9')).data.kz_text,
 
-  ThirdNavNavItem3Li1: "Бағдарламалық қамтамасыз ету",
-  ThirdNavNavItem3Li2: "Есеп және аудит",
-  ThirdNavNavItem3Li3: "Педагогика-математика",
+  ThirdNavNavItem6Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662173bfc1d336237231bbaf')).data.kz_text,
+  ThirdNavNavItem6Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621746912bdf7b811b7a2c3')).data.kz_text,
+  ThirdNavNavItem6Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662174b969264e6a142b5000')).data.kz_text,
 
-  ThirdNavNavItem4Li1: "Лабораториялар",
-  ThirdNavNavItem4Li2: "Корпус",
-  ThirdNavNavItem4Li3: "Жатақхана",
-  ThirdNavNavItem4Li4: "Спортзал + алаң",
-  ThirdNavNavItem4Li5: "Асхана",
+  ThirdNavNavItem7Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621750e69264e6a142b5067')).data.kz_text,
+  ThirdNavNavItem7Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66217564c1d336237231bce8')).data.kz_text,
 
-  ThirdNavNavItem5Li1: "Академиялық календарь",
-  ThirdNavNavItem5Li2: "Электронды журнал",
-  ThirdNavNavItem5Li3: "Практика , Карьера , Проф. ориентация",
-  ThirdNavNavItem5Li6: "Комитеттер",
-  ThirdNavNavItem5Li7: "Студенттік өмір",
-  ThirdNavNavItem5Li8: "Студент үйі",
-
-  ThirdNavNavItem6Li1: "Ата-ана комитеті",
-  ThirdNavNavItem6Li2: "Колледжбен байланысу",
-  ThirdNavNavItem6Li3: "Мұғаліммен байланысу",
-
-  ThirdNavNavItem7Li1: "Серіктестер",
-  ThirdNavNavItem7Li2: "Мамандарды даярлау",
-
-  ThirdNavNavItem8Li1: "Ассоциация",
-  ThirdNavNavItem8Li2: "Спонсорлық",
-
-  ThirdNavNavItem9Li1: "Google Calendar",
-
+  ThirdNavNavItem8Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621764ab4d8f21398685fa2')).data.kz_text,
+  ThirdNavNavItem8Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662176a0c1d336237231bdb9')).data.kz_text,
+  
+  ThirdNavNavItem9Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662176eec1d336237231be2f')).data.kz_text,
   // AcademicCalendar Texts
-  AcademicCalendarInfoText:
-    "kzПринимая во внимание нужды участников учебного процесса и государственной образовательной программы, годовой календарный учебный график составлен так, что учебный год будет начинаться в ..................",
+  AcademicCalendarInfoText: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662178db69264e6a142b51e7')).data.kz_text,
   AcdemicCalendarP1: "kzГрафик 2022-2023 учебного года будет следующим:",
   AcdemicCalendarP2:
     "Просмотреть наш годовой календарь на 2023-2024 учебный год можно здесь",
@@ -337,42 +328,43 @@ export default {
 
   // Accounting Texts
   accountingPage: {
-    title: "Есеп және аудит",
-    podtitle: "Басты бет / Есеп және аудит",
+    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
+    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bd0a077963c43cf74b9d')).data.kz_text,
   },
 
-  AccountingInfoH1: "Есеп және аудит",
-  AccountingInfoH2: "Оқытылатын пәндер",
-  AccountingInfoP1:
-    "Колледжде сіз ACCA бағдарламасы бойынша бухгалтерлік есепті оқи аласыз, бұл ACCA сертификатын алуға бірегей мүмкіндік береді. Бұл бағдарлама студенттерді бухгалтерлік есеп бойынша теориялық біліммен қамтамасыз етіп қана қоймайды, сонымен қатар оларды қаржы және бизнес саласындағы мансаптағы құнды актив болып табылатын ACCA халықаралық стандартына дайындайды.",
-  AccountingInfoLi1: "Ағылшын және математиканы тереңдетіп оқыту",
-  AccountingInfoLi2:
-    "AССA кәсіби сертификаттау талаптары мен стандарттарына сәйкес оқыту (Қаржы, Есеп және аудит саласындағы мамандарды біріктіретін Британдық сертификатталған алқабилер қауымдастығы)",
-  AccountingInfoLi3: "1С үйрену",
-  AccountingInfoLi4: "Қазақстандық салық салуды игеру",
-  AccountingInfoLi5: "Тәжірибелі және озық оқытушылар",
-  AccountingInfoLi6: "Аудиторлық фирмада тағылымдамадан өту мүмкіндігі",
-  AccountingInfoCard1: "Менеджмент",
-  AccountingInfoCard2: "Аудит",
-  AccountingInfoCard3: "Маркетинг",
-  AccountingInfoCard4: "Финанс",
+  AccountingInfoH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
+  AccountingInfoH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bd9b077963c43cf74c85')).data.kz_text,
+  AccountingInfoP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bdff077963c43cf74d07')).data.kz_text,
+  
+  AccountingInfoLi1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621be749d882d4f1cc41df6')).data.kz_text,
+  AccountingInfoLi2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bef3fe97af7e5d085cec')).data.kz_text,
+  AccountingInfoLi3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bf669d882d4f1cc41f0e')).data.kz_text,
+  AccountingInfoLi4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bfeb9d882d4f1cc41f77')).data.kz_text,
+  AccountingInfoLi5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c0489d882d4f1cc41ff6')).data.kz_text,
+  AccountingInfoLi6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c0a7bca47732adf82443')).data.kz_text,
+
+  AccountingInfoCard1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c1a4077963c43cf7508b')).data.kz_text,
+  AccountingInfoCard2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c22c9d882d4f1cc42121')).data.kz_text,
+  AccountingInfoCard3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f34e401a5f8b3d47855f')).data.kz_text,
+  AccountingInfoCard4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f3a7d244c5da9558a576')).data.kz_text,
   // IT Texts
   ItPage: {
-    title: "Бағдарламалық қамтамасыз ету",
-    podtitle: "Басты бет / Бағдарламалық қамтамасыз ету",
+    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f4d0ff19b702c9609820')).data.kz_text,
+    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f5398fa730a74f2316c9')).data.kz_text,
   },
 
-  ItH1: "Бағдарламалық қамтамасыз ету",
-  ItH2: "Оқытылатын бағыттар",
-  ItP1: "Колледжде сіз ақпараттық технологиялардың әртүрлі аспектілерін, соның ішінде бағдарламалауды, желілік технологияларды және мәліметтер базасын зерттеу арқылы ат дәрежесін ала аласыз. Оқыту бағдарламалық жасақтаманы әзірлеу, жүйелерді басқару және ақпараттық технологиялар жобаларын басқару сияқты көптеген тақырыптарды қамтиды.",
-  ItLi1: "Грантта оқыту",
-  ItLi2: "WorldSkills база компетенциясында оқыту",
-  ItLi3: "IT хакатондар мен StartUp-тарға қатысу",
-  ItLi4: "Модульдерге бөліп оқыту",
-  ItLi5: "Тәжірибелі және озық оқытушылар",
-  ItLi6: "ІТ компанияларда практикадан өту",
-  ItCard1: "UI/UX дизайн",
-  ItCard2: "Графикалық дизайн",
-  ItCard3: "Веб бағдарламалау",
-  ItCard4: "Мобильді бағдарламалау",
+  ItH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f4d0ff19b702c9609820')).data.kz_text,
+  ItH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f77eff19b702c9609907')).data.kz_text,
+  ItP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f7dc33ae1fd1526aab4e')).data.kz_text,
+  ItLi1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f890ff19b702c9609a8f')).data.kz_text,
+  ItLi2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f98bfec79da67c0d9ab2')).data.kz_text,
+  ItLi3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fb48d244c5da9558a8d5')).data.kz_text,
+  ItLi4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fbaeff19b702c9609be9')).data.kz_text,
+  ItLi5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fc182f005d7bd8f96c4a')).data.kz_text,
+  ItLi6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fc7ec87807c7c70d32d2')).data.kz_text,
+
+  ItCard1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fcf72f005d7bd8f96d54')).data.kz_text,
+  ItCard2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fd6a2f005d7bd8f96de1')).data.kz_text,
+  ItCard3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fdcbc87807c7c70d346e')).data.kz_text,
+  ItCard4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fe34d244c5da9558ac2e')).data.kz_text,
 };

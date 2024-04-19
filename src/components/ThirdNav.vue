@@ -77,7 +77,7 @@
 
               <li>
                 <router-link to="/AllNews" exact class="dropdown-item text-white drop-down" href="#"
-                  >Объявления</router-link
+                  >{{ $t("ThirdNavNavItem1Li7") }}</router-link
                 >
               </li>
             </ul>

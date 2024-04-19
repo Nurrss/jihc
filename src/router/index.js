@@ -45,6 +45,7 @@ import Prachka from "../pages/Prachka.vue";
 import barbe from "../pages/Barbe.vue";
 import corpusA from "../pages/corpusA.vue";
 import AllNews from "../pages/AllNews.vue";
+import EditText from "@/components/editText.vue";
 
 const routes = [
   {
@@ -67,6 +68,12 @@ const routes = [
     path: "/addText",
     name: "AddText",
     component: AddText,
+    meta: { hideFooter: true },
+  },
+  {
+    path: "/editText",
+    name: "EditText",
+    component: EditText,
     meta: { hideFooter: true },
   },
   {

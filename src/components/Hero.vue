@@ -2,7 +2,7 @@
   <section id="blog" class="text-center color-white bg-img mb-5 size">
     <div class="inner-overlay overlay size">
       <div
-        class="px-5 py-5 container size text-center text-lg-start d-flex align-items-center"
+        class="px-5 py-5 container filt size text-center text-lg-start d-flex align-items-center"
       >
         <h1 class="display-5 fw-bold lh-2 text-white align-bottom">
             {{ $t("HeroH1P1") }}<br />
@@ -27,7 +27,12 @@ export default {
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
-  filter: brightness(90%);
+}
+
+.filt {
+  backdrop-filter: blur(4px);
+  max-width: 1800px;
+
 }
 
 .overlay {
