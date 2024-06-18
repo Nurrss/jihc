@@ -171,12 +171,12 @@
             <ul class="dropdown-menu bg-primary">
               <li>
                 <router-link to="/corpus" exact class="dropdown-item text-white drop-down" href="#"
-                  >Корпус</router-link
+                  >{{ $t("ThirdNavNavItem4Li1") }}</router-link
                 >
               </li>
               <li>
                 <router-link to="/corpusA" exact class="dropdown-item text-white drop-down" href="#"
-                  >Корпус А (учебный корпус + актовый зал)</router-link
+                  >{{ $t("ThirdNavNavItem4Li2") }}</router-link
                 >
               </li>
               <li>
@@ -185,7 +185,7 @@
                   exact
                   class="dropdown-item text-white drop-down"
                   href="#"
-                  >Корпус В + Общежитие</router-link
+                  >{{ $t("ThirdNavNavItem4Li3") }}</router-link
                 >
               </li>
               <li>
@@ -194,17 +194,17 @@
                   exact
                   class="dropdown-item text-white drop-down"
                   href="#"
-                  >Спортзал</router-link
+                  >{{ $t("ThirdNavNavItem4Li4") }}</router-link
                 >
               </li>
               <li>
                 <router-link to="/football" exact class="dropdown-item text-white drop-down" href="#"
-                  >Футбольное поле</router-link
+                  >{{ $t("ThirdNavNavItem4Li5") }}</router-link
                 >
               </li>
               <li>
                 <router-link to="/barbe" exact class="dropdown-item text-white drop-down" href="#"
-                  >Беседка для барбекю</router-link
+                  >{{ $t("ThirdNavNavItem4Li6") }}</router-link
                 >
               </li>
 
@@ -214,12 +214,12 @@
                   exact
                   class="dropdown-item text-white drop-down"
                   href="#"
-                  >{{ $t("ThirdNavNavItem4Li5") }}</router-link
+                  >{{ $t("ThirdNavNavItem4Li7") }}</router-link
                 >
               </li>
               <li>
                 <router-link to="/prachka" exact class="dropdown-item text-white drop-down" href="#"
-                  >Прачечная</router-link
+                  >{{ $t("ThirdNavNavItem4Li8") }}</router-link
                 >
               </li>
             </ul>

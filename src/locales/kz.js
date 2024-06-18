@@ -1,4 +1,4 @@
-import axios from "axios";
+
 
 export default {
   // DocumentPage Texts
@@ -12,33 +12,133 @@ export default {
     podtitle: "Басты бет / Қамқоршылар кеңесі",
   },
   BoardH1: "Қамқоршылар кеңесі",
+  BoardP1: "Қамқоршылық кеңесінің төрағасы",
+  BoardP2: "Қамқоршылық кеңесінің мүшесі",
   // ComandPage Texts
   ComandPage: {
-    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621feac2f005d7bd8f96f50')).data.kz_text,
-    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621ff81ae188541bf27fdd2')).data.kz_text,
+    title: "Ұйым",
+    podtitle: "Басты бет / Ұйым",
   },
   
-  ComandH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662200012f005d7bd8f9706b')).data.kz_text,
+  ComandH1: "Біздің Ұйым",
 
-  NewsH: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220130ae188541bf27ff4a')).data.kz_text,
+  ComandH2: "Басшылық",
+  ComandH3: "Әкімшілік",
+  ComandH4: "Тілдер кафедрасы",
+  ComandH5: "Гуманитарлық ғылымдар және дене шынықтыру кафедрасы",
+  ComandH6: "Жаратылыстану-математикалық цикл кафедрасы",
+  ComandH7: "Ақпараттық технологиялар кафедрасы",
+  ComandH8: "Бухгалтерлік есеп және аудит кафедрасы",
+  ComandH9: "Тәрбиешілер",
+
+  //Басшылық
+  ComandP1: "Директор",
+  ComandP2: "Директордың оқу-әдістемелік жұмысы жөніндегі орынбасары",
+  ComandP3: "Директордың оқу-ісі жөніндегі орынбасары",
+  ComandP4: "Директордың тәрбие ісі жөніндегі орынбасары",
+  ComandP5: "Директордың тәрбие ісі жөніндегі орынбасары",
+  ComandP6: "Директордың тәрбие ісі жөніндегі орынбасары",
+
+  //Әкімшілік
+  ComandP7: "Шаруашылық меңгерушісі",
+  ComandP8: "Кадр инспекторы, директордың қоғаммен байланыс жөніндегі орынбасары",
+  ComandP9: " Бас есепші",
+  ComandP10: "Есепші",
+  ComandP11: "Экономист", 
+  ComandP12: "Әдіскер, кеңсе тіркеушісі",
+  ComandP13: "Оқу бөлімінің хатшысы",
+  ComandP14: "Әлеуметтік педагог", 
+  ComandP15: "Психолог", 
+  ComandP16: "Карьера жобалау бөлімінің басшысы", 
+  ComandP17: "Медбике", 
+  ComandP18: "Кітапханашы", 
+  ComandP19: "Жүйелік администратор – программист", 
+  
+  //Тілдер кафедрасы
+  ComandP20: "Ағылшын тілі пәні оқытушысы, кафедра меңгерушісі", 
+  ComandP21: "Ағылшын тілі пәні оқытушысы", 
+  ComandP22: "Ағылшын тілі пәні оқытушысы", 
+  ComandP23: "Ағылшын тілі пәні оқытушысы", 
+  ComandP24: "Ағылшын тілі пәні оқытушысы", 
+  ComandP25: "Қазақ тілі мен әдебиеті  пәні оқытушысы", 
+  ComandP26: "Түрік тілі пәні оқытушысы", 
+  ComandP27: "Орыс тілі пәні оқытушысы", 
+  
+  //Гуманитарлық ғылымдар және дене шынықтыру кафедрасы
+  ComandP28: "Тарих пәні оқытушысы, кафедра меңгерушісі",
+  ComandP29: "Тарих пәні оқытушысы",
+  ComandP30: "География пәні оқытушысы",
+  ComandP31: "АӘД пәні оқытушысы",
+  ComandP32: "Дене шынықтыру пәні оқытушысы",
+  ComandP33: "Дене шынықтыру пәні оқытушысы",
+
+  //Жаратылыстану-математикалық цикл кафедрасы
+  ComandP34: "Математика пәні оқытушысы, кафедра меңгерушісі",
+  ComandP35: "Математика пәні оқытушысы",
+  ComandP36: "Математика пәні оқытушысы",
+  ComandP37: "Химия пәні оқытушысы",
+  ComandP38: "Физика пәні оқытушысы",
+  ComandP39: "Физика пәні оқытушысы",
+  ComandP40: "Биология пәні оқытушысы",
+
+  //Ақпараттық технологиялар кафедрасы
+  ComandP41: "Ақпараттық жүйелер пәні оқытушысы, директордың ақпараттық жүйелер жөніндегі орынбасары",
+  ComandP42: "Ақпараттық жүйелер пәні оқытушысы, жатақхана меңгерушісі",
+  ComandP43: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP44: "Ақпараттық жүйелер пәні оқытушысы, жастар ісі жөніндегі инспектор",
+  ComandP45: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP46: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP47: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP48: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP49: "Ақпараттық жүйелер пәні оқытушысы, жатақхана меңгерушісі",
+  ComandP50: "Ақпараттық жүйелер пәні оқытушысы",
+  ComandP51: "Ақпараттық жүйелер пәні оқытушысы",
+
+  //Бухгалтерлік есеп және аудит кафедрасы
+  ComandP52: "Қаржы оқытушысы, кафедра меңгерушісі",
+  ComandP53: "Бухгалтерлік есеп және 1С оқытушысы",
+  ComandP54: "Экономика және маркетинг пәні оқытушысы",
+  ComandP55: "Есеп және аудит пәні оқытушысы",
+  ComandP56: "Менеджмент пәні оқытушысы",
+  ComandP57: "преподаватель бухгалтерского учета и 1С",
+
+  //Тәрбиешілер
+  ComandP58: "Тәрбиеші",
+
+  NewsH: "Жаңалықтар",
   // AsocPage Texts
   LifePage: {
-    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662201d22f005d7bd8f97260')).data.kz_text,
-    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220262c87807c7c70d38a4')).data.kz_text,
+    title: "Студенттік өмір",
+    podtitle: "Басты бет / Студенттік өмір",
   },
-  LifeP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66220309ad6599d9ba5887b5')).data.kz_text,
-  LifeP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6622038ead6599d9ba588871')).data.kz_text,
-  LifeP3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662204b9c87807c7c70d3b78')).data.kz_text,
-  LifeP4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662206b4d244c5da9558b434')).data.kz_text,
+  LifeP1: "Біздің колледждегі студенттік өмір мәдени және спорттық іс-шаралардың алуан түрлілігімен айқын көрінеді. Жыл сайынғы іс-шаралар мен концерттер студенттерге мәдени әртүрлілікке толығымен енуге мүмкіндік беретін жағымды және шабыттандыратын атмосфера жасайды. Сонымен қатар, студенттік клубтар мен ұйымдар көшбасшылық пен әлеуметтік жауапкершілік дағдыларын дамытуға ықпал ететін жарыстарды белсенді түрде өткізеді. Студенттер сонымен қатар спорттық турнирлер мен жаттығулар арқылы белсенді өмір салтын ұнатады, бұл біздің оқу орнымызда достық және жігерлі жағдай жасайды.",
+  LifeP2: "Біздің колледжде ағылшын клубы,түрік клубы, пікірталас сияқты академиялық клубтар бар. Олар студенттерге тілдік дағдыларын кеңейтуге көптеген мүмкіндіктер береді. Бұл клуб студенттердің оқу тәжірибесін байыта отырып, әртүрлі тілдер мен мәдениеттерге енетін бірегей орын. Мұнда олар бір-бірімен сөйлесе алады, интеллектуалды пікірталастарға қатыса алады және қарым-қатынас дағдыларын жетілдіре алады. Тіл клубының арқасында студенттер тек аудиторияда ғана емес, одан тыс жерлерде де колледждің тілдік ортасына ену мүмкіндігіне ие. Бұл сонымен қатар Тілдер мен мәдениеттерге ортақ қызығушылық танытатын студенттер арасында тығыз достық қарым-қатынас орнатуға ықпал етеді.",
+  LifeP3: "Біздің колледжде студенттерге бірегей мүмкіндіктер беретін көптеген спорт клубтары бар. Бұл клубтар физикалық белсенділік пен спортпен шұғылданудың әртүрлі нұсқаларын жасайды. Студенттер футбол, баскетбол, теннис немесе фитнес болсын, өз мүдделеріне сәйкес клубты таңдай алады. Осы клубтардың арқасында студенттер өздерінің фитнестерін жақсартып қана қоймай, олардың құмарлықтарымен бөлісетін жаңа достар табады. Колледждегі спорттық қауымдастық салауатты өмір салтын ғана емес, сонымен қатар студенттер қауымдастығы арасында мықты командалық рухты қалыптастыруға ықпал етеді. Бұл спорттық мүмкіндіктер біздің оқу орнымызды студенттер үшін одан да тартымды етеді.",
+  LifeP4: "Колледж студенттердің көңілін көтеру үшін түрлі іс-шараларды белсенді ұйымдастырады. Ай сайынғы іс-шараларға концерттер, тақырыптық кештер және спорттық жарыстар кіреді, бұл оқу орнында динамикалық атмосфера жасайды. Мұндай бастамалар студенттердің әлеуметтік шеңберін кеңейтуге ғана емес, олардың командалық рухын нығайтуға да ықпал етеді. Колледж сонымен қатар экскурсиялар мен саяхаттарды қоса, көшпелі іс-шараларды ұйымдастырады, бұл студенттерге жаңа тәжірибе алуға және оқудан тыс бос уақытты пайдалануға мүмкіндік береді. Бұл әрекеттер студенттердің үйлесімді тәжірибесін дамыта отырып, оң оқу ортасын жасайды.",
 
-  LifeH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662207222f005d7bd8f97822')).data.kz_text,
-  LifeH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662207a9ae188541bf280696')).data.kz_text,
-  LifeH3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6622086ec87807c7c70d3f5d')).data.kz_text,
+  LifeH1: "Академиялық үйірмелер",
+  LifeH2: "Спорт үйірмелері",
+  LifeH3: "Іс-шаралар",
+
+  DocumentP1: "Дамудың стратегиялық жоспары",
+  DocumentP2: "Лицензиялар",
+  DocumentP3: "Аттестация",
+  DocumentP4: "Корпоративтік кодекс",
+  DocumentP5: "Қабылдау ережелері",
+  DocumentP6: "Ауысу және қайта қабылдау ережелері",
+  DocumentP7: "Колледждің этикалық кодексі",
+  DocumentP8: "Колледждің өзін-өзі бағалауы",
+  DocumentP9: "Сыбайлас жемқорлыққа қарсы және комплаенс қызметі:",
+  DocumentP10: "1 қызмет",
+  DocumentP11: "2 қызмет",
+  DocumentP12: "3 қызмет",
+  DocumentP13: "4 қызмет",
+  DocumentP14: "Академиялық сапа ережелері",
 
   // AsocPage Texts
   AssocPage: {
-    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662209322f005d7bd8f97a4c')).data.kz_text,
-    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662209a7c87807c7c70d40b7')).data.kz_text,
+    title: "Ассоциация",
+    podtitle: "Басты бет / Ассоциация",
   },
   AssocP1: "",
   AssocP2:
@@ -73,9 +173,20 @@ export default {
     podtitle: "Басты бет / Корпус",
   },
   CorpusH: "Корпус",
+  CorpusPBold: "КАМПУС JIHC",
   CorpusP:
     "Біздің корпус – студенттер білім мен әлеуметтік белсенділіктің тамаша үйлесімін табатын шабыттандыратын орын. Біздің корпус пен аудиториямызда заманауи білім беру тәжірибесіне ықпал ететін инновациялық дизайн бар.",
-  // CanteenPage Texts
+    CorpusP2:
+    "Біз студенттер қалашығында сапалы білім алу үшін барлық жағдайды жасадық",
+  CorpusP3:
+    "Жабдықталған кабинеттері мен зертханалары, заманауи кітапханасы мен үлкен акт залы бар ғимарат.",
+  CorpusP4:
+    "Ұлдар (120 орын) және қыздар (180 орын) үшін жеке бөлімдері бар жатақхана*.",
+  CorpusP5: "Ашық ойындарға арналған кең спорт залы мен футбол алаңы.",
+  CorpusP6:
+    "Оқушыларды күніне 3 мезгіл ыстық тамақпен қамтамасыз ететін асхана*.",
+  CorpusP7: "* бөлек төленеді және оқу құнына қосылмайды",
+    // CanteenPage Texts
   CantennPage: {
     title: "Асхана",
     podtitle: "Басты бет / Асхана",
@@ -214,8 +325,8 @@ export default {
     "'Денсаулық сақтау саласындағы есепке алу құжаттамасының нысандарын бекіту туралы' Қазақстан Республикасы Денсаулық сақтау министрінің міндетін атқарушының 2020 жылғы 30 қазандағы № ҚР ДСМ-175/2020 бұйрығымен (Нормативтік құқықтық актілерді мемлекеттік тіркеу тізілімінде № 21759 болып тіркелген) бекітілген № 075-У нысаны",
 
   // Hero Texts
-  HeroH1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621595b9491387b6ae48f9a')).data.kz_text,
-  HeroH1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662159f49491387b6ae48fbe')).data.kz_text,
+  HeroH1P1: "Сапалы білім",
+  HeroH1P2: "Саналы тәрбие",
   // Column,
   ColumnD1P1: "Құндылыққа бағытталған білім беру",
   ColumnD1P2: "білім",
@@ -228,92 +339,95 @@ export default {
 
 
   // Jumbotron,
-  JumbotronH1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215be469264e6a142b3fc3')).data.kz_text,
-  JumbotronH1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215c5d12bdf7b811b7917b')).data.kz_text,
-  JumbotronH1P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215c9812bdf7b811b79181')).data.kz_text,
-  JumbotronP1P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215d7eb4d8f21398684e50')).data.kz_text,
-  JumbotronP1P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215e3fb4d8f21398684e7e')).data.kz_text,
-  JumbotronP1P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215ed469264e6a142b406c')).data.kz_text,
-  JumbotronP1P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215f1e12bdf7b811b79228')).data.kz_text,
-  JumbotronP1P5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215f5312bdf7b811b7924b')).data.kz_text,
+  JumbotronH1P1: "Жамбыл Инновациялық",
+  JumbotronH1P2: "жоғары колледжіне қош",
+  JumbotronH1P3: "келдіңіздер!",
+  JumbotronP1P1: "Білім құндылықтарға, мүмкіндіктерге және шабытқа толы біздің оқу орнына қош келдіңіз. Осы колледждің директоры ретінде Мен сізге әр адамның өз әлеуетін ашуға мүмкіндігі бар бірегей білім беру ортасын ұсынғанымды мақтан тұтамын.",
+  JumbotronP1P2: "Біздің құндылықтарымыздың негізінде сапалы білім алуға деген ұмтылыс жатыр. Біздің колледж әртүрлі білім салаларындағы студенттерге бірегей мүмкіндіктер ұсынады. Біз студенттер идеялармен алмасатын, тәжірибелі оқытушылармен ынтымақтаса алатын және ғылыми жобаларға қатыса алатын инновациялық ортаны құруға тырысамыз.",
+  JumbotronP1P3: "Біздің колледжге деген қызығушылығыңыз үшін рахмет. Мұнда сіз тек білім ғана емес, сонымен қатар ең өршіл мақсаттарыңызға жету үшін шабыт таба алатындығыңызға сенімдіміз.",
+  JumbotronP1P4: "Колледж директоры",
+  JumbotronP1P5: "Бодаубеков Әлішер Рустамұлы",
   // Column2,
-  Column2H1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66215fca12bdf7b811b7927c')).data.kz_text,
-  Column2P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662160a0b4d8f21398684f58')).data.kz_text,
-  Column2P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662160cdb4d8f21398684f73')).data.kz_text,
-  Column2P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621612c69264e6a142b4165')).data.kz_text,
-  Column2P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216186b4d8f21398684fee')).data.kz_text,
-  Column2P5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662161ba12bdf7b811b7933e')).data.kz_text,
-  Column2P6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662161f269264e6a142b41d6')).data.kz_text,
+  Column2H1: "Біздің артықшылықтарымыз",
+  Column2P1: "Құндылыққа бағытталған білім беру",
+  Column2P2: "4 тілде оқыту",
+  Column2P3: "Модульдік – құзыреттілікке негізделген тәсіл",
+  Column2P4: "Сапалы тәжірибелі мұғалімдер",
+  Column2P5: "Сабақтар WorldSkills Competences, ACCA және 1C стандарттары негізінде жүргізіледі",
+  Column2P6: "Шетелдік және отандық үздік білімі бар мұғалімдер",
   
 
   // Column3,
-  Column3H1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216263b4d8f21398685067')).data.kz_text,
-  Column3P1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621629f12bdf7b811b793c3')).data.kz_text,
-  Column3P2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662162ddc1d336237231ae37')).data.kz_text,
-  Column3P3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621634d12bdf7b811b79426')).data.kz_text,
-  Column3P4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216383b4d8f21398685147')).data.kz_text,
+  Column3H1: "Маңызды сандар",
+  Column3P1: "Мұғалімдердің IELTS орташа баллы",
+  Column3P2: "Мұғалім",
+  Column3P3: "Студент",
+  Column3P4: "Негізгі оқу бағыттары",
   //   Footer Texts
-  FooterH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662163d7c1d336237231aef1')).data.kz_text,
-  FooterH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621641a69264e6a142b4328')).data.kz_text,
-  FooterL1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621645dc1d336237231af78')).data.kz_text,
+  FooterH1: "Байланыс үшін",
+  FooterH2: "Әлеуметтік желілер",
+  FooterL1: "Тараз қ. Пушкина 154",
   //   SecondNav Texts
-  SecondNavP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662164a112bdf7b811b79556')).data.kz_text,
-  SecondNavP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662164e0c1d336237231affc')).data.kz_text,
+  SecondNavP1: "Байланыс үшін",
+  SecondNavP2: "Бізге хабарласыңыз",
   //   Navbar Texts
-  NavbarP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621659512bdf7b811b79618')).data.kz_text,
+  NavbarP1: "080003 Тараз қаласы, Пушкин көшесі, 154",
   //   ThirdNav Texts
-  ThirdNavNavItem1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621664a12bdf7b811b79674')).data.kz_text,
-  ThirdNavNavItem2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621668fb4d8f2139868539d')).data.kz_text,
-  ThirdNavNavItem3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662166d369264e6a142b4568')).data.kz_text,
-  ThirdNavNavItem4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621670e12bdf7b811b79749')).data.kz_text,
-  ThirdNavNavItem5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621676312bdf7b811b79793')).data.kz_text,
-  ThirdNavNavItem6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662167a8c1d336237231b20a')).data.kz_text,
-  ThirdNavNavItem7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662167fe12bdf7b811b79863')).data.kz_text,
-  ThirdNavNavItem8: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662168dc69264e6a142b46f4')).data.kz_text,
-  ThirdNavNavItem9: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621692669264e6a142b4744')).data.kz_text,
+  ThirdNavNavItem1: "Колледж",
+  ThirdNavNavItem2: "Талапкерлерге",
+  ThirdNavNavItem3: "Мамандықтар",
+  ThirdNavNavItem4: "Инфраструктура",
+  ThirdNavNavItem5: "Студенттерге",
+  ThirdNavNavItem6: "Ата-аналарға",
+  ThirdNavNavItem7: "Жұмыс берушілерге",
+  ThirdNavNavItem8: "Түлектерге",
+  ThirdNavNavItem9: "Календарь",
   //   ThirdNav drop-down item text
-  ThirdNavNavItem1Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662169ddb4d8f213986855c6')).data.kz_text,
-  ThirdNavNavItem1Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216a4cc1d336237231b380')).data.kz_text,
-  ThirdNavNavItem1Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216a95b4d8f21398685678')).data.kz_text,
-  ThirdNavNavItem1Li4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216adcb4d8f213986856b7')).data.kz_text,
-  ThirdNavNavItem1Li5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216b2369264e6a142b48b8')).data.kz_text,
-  ThirdNavNavItem1Li6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216b67c1d336237231b4a2')).data.kz_text,
-  ThirdNavNavItem1Li7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6620c41a13a1f3713e5a4b2e')).data.kz_text,
+  ThirdNavNavItem1Li1: "Колледж тарихы",
+  ThirdNavNavItem1Li2: "Маңызды фактілер",
+  ThirdNavNavItem1Li3: "Құжаттар",
+  ThirdNavNavItem1Li4: "Команда",
+  ThirdNavNavItem1Li5: "Колледж структурасы",
+  ThirdNavNavItem1Li6: "Қамқоршылар кеңесі",
+  ThirdNavNavItem1Li7: "Хабарландыру",
   
-  ThirdNavNavItem2Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216bb869264e6a142b4943')).data.kz_text,
-  ThirdNavNavItem2Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216bfec1d336237231b55f')).data.kz_text,
-  ThirdNavNavItem2Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216c4312bdf7b811b79bbb')).data.kz_text,
+  ThirdNavNavItem2Li1: "Мамандықтар",
+  ThirdNavNavItem2Li2: "Құжаттарды тапсыру",
+  ThirdNavNavItem2Li3: "Ауысу",
   
-  ThirdNavNavItem3Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216c81c1d336237231b5f0')).data.kz_text,
-  ThirdNavNavItem3Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
-  ThirdNavNavItem3Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216d18c1d336237231b681')).data.kz_text,
+  ThirdNavNavItem3Li1: "Бағдарламалық қамтамасыз ету",
+  ThirdNavNavItem3Li2: "Есеп және аудит",
+  ThirdNavNavItem3Li3: "Педагогика-математика",
   
-  ThirdNavNavItem4Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216d5b12bdf7b811b79ce8')).data.kz_text,
-  ThirdNavNavItem4Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216daec1d336237231b711')).data.kz_text,
-  ThirdNavNavItem4Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216dfbb4d8f213986859b4')).data.kz_text,
-  ThirdNavNavItem4Li4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216e4469264e6a142b4c08')).data.kz_text,
-  ThirdNavNavItem4Li5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216e8b12bdf7b811b79e4e')).data.kz_text,
-
-  ThirdNavNavItem5Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ff7b4d8f21398685af4')).data.kz_text,
-  ThirdNavNavItem5Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621705c12bdf7b811b79f23')).data.kz_text,
-  ThirdNavNavItem5Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662170b0c1d336237231b90f')).data.kz_text,
-  ThirdNavNavItem5Li6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662172cec1d336237231ba98')).data.kz_text,
-  ThirdNavNavItem5Li7: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621731f12bdf7b811b7a193')).data.kz_text,
-  ThirdNavNavItem5Li8: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621737069264e6a142b4ef9')).data.kz_text,
-
-  ThirdNavNavItem6Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662173bfc1d336237231bbaf')).data.kz_text,
-  ThirdNavNavItem6Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621746912bdf7b811b7a2c3')).data.kz_text,
-  ThirdNavNavItem6Li3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662174b969264e6a142b5000')).data.kz_text,
-
-  ThirdNavNavItem7Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621750e69264e6a142b5067')).data.kz_text,
-  ThirdNavNavItem7Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66217564c1d336237231bce8')).data.kz_text,
-
-  ThirdNavNavItem8Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621764ab4d8f21398685fa2')).data.kz_text,
-  ThirdNavNavItem8Li2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662176a0c1d336237231bdb9')).data.kz_text,
+  ThirdNavNavItem4Li1: "Корпус",
+  ThirdNavNavItem4Li2: "А корпусы (оқу корпусы + акт залы)",
+  ThirdNavNavItem4Li3: "Б корпусы + Жатақхана",
+  ThirdNavNavItem4Li4: "Спортзал",
+  ThirdNavNavItem4Li5: "Футбол алаңы",
+  ThirdNavNavItem4Li6: "Барбекюге арналған беседка",
+  ThirdNavNavItem4Li7: "Асхана",
+  ThirdNavNavItem4Li8: "Кір жуатын орын",
   
-  ThirdNavNavItem9Li1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662176eec1d336237231be2f')).data.kz_text,
+  ThirdNavNavItem5Li1: "Академиялық календарь",
+  ThirdNavNavItem5Li2: "Электронды журнал",
+  ThirdNavNavItem5Li3: "Практика , Карьера , Проф. ориентация",
+  ThirdNavNavItem5Li6: "Комитеттер",
+  ThirdNavNavItem5Li7: "Студенттік өмір",
+  ThirdNavNavItem5Li8: "Студент үйі",
+
+  ThirdNavNavItem6Li1: "Ата-ана комитеті",
+  ThirdNavNavItem6Li2: "Колледжбен байланысу",
+  ThirdNavNavItem6Li3: "Мұғаліммен байланысу",
+
+  ThirdNavNavItem7Li1: "Серіктестер",
+  ThirdNavNavItem7Li2: "Мамандарды даярлау",
+
+  ThirdNavNavItem8Li1: "Ассоциация",
+  ThirdNavNavItem8Li2: "Спонсорлық",
+  
+  ThirdNavNavItem9Li1: "Google Calendar",
   // AcademicCalendar Texts
-  AcademicCalendarInfoText: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/662178db69264e6a142b51e7')).data.kz_text,
+  AcademicCalendarInfoText: "Білім беру үдерісіне және мемлекеттік білім беру бағдарламасына қатысушылардың қажеттіліктерін ескере отырып, жылдық күнтізбелік оқу кестесі оқу жылы 1 қыркүйекте басталып, 28 маусымда аяқталатындай етіп құрастырылған.",
   AcdemicCalendarP1: "kzГрафик 2022-2023 учебного года будет следующим:",
   AcdemicCalendarP2:
     "Просмотреть наш годовой календарь на 2023-2024 учебный год можно здесь",
@@ -328,43 +442,182 @@ export default {
 
   // Accounting Texts
   accountingPage: {
-    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
-    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bd0a077963c43cf74b9d')).data.kz_text,
+    title: "Есеп және аудит",
+    podtitle: "Басты бет / Есеп және аудит",
   },
 
-  AccountingInfoH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/66216ccfb4d8f2139868587e')).data.kz_text,
-  AccountingInfoH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bd9b077963c43cf74c85')).data.kz_text,
-  AccountingInfoP2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bdff077963c43cf74d07')).data.kz_text,
+  AccountingInfoH1: "Есеп және аудит",
+  AccountingInfoH2: "Оқытылатын пәндер",
   
-  AccountingInfoLi1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621be749d882d4f1cc41df6')).data.kz_text,
-  AccountingInfoLi2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bef3fe97af7e5d085cec')).data.kz_text,
-  AccountingInfoLi3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bf669d882d4f1cc41f0e')).data.kz_text,
-  AccountingInfoLi4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621bfeb9d882d4f1cc41f77')).data.kz_text,
-  AccountingInfoLi5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c0489d882d4f1cc41ff6')).data.kz_text,
-  AccountingInfoLi6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c0a7bca47732adf82443')).data.kz_text,
+  AccountingInfoP1: "Колледжде сіз ACCA бағдарламасы бойынша бухгалтерлік есепті оқи аласыз, бұл ACCA сертификатын алуға бірегей мүмкіндік береді. Бұл бағдарлама студенттерді бухгалтерлік есеп бойынша теориялық біліммен қамтамасыз етіп қана қоймайды, сонымен қатар оларды қаржы және бизнес саласындағы мансаптағы құнды актив болып табылатын ACCA халықаралық стандартына дайындайды.",
+  
+  AccountingInfoLi1: "Ағылшын және математиканы тереңдетіп оқыту",
+  AccountingInfoLi2: "AССA кәсіби сертификаттау талаптары мен стандарттарына сәйкес оқыту (Қаржы, Есеп және аудит саласындағы мамандарды біріктіретін Британдық сертификатталған алқабилер қауымдастығы)",
+  AccountingInfoLi3: "1С үйрену",
+  AccountingInfoLi4: "Қазақстандық салық салуды игеру",
+  AccountingInfoLi5: "Тәжірибелі және озық оқытушылар",
+  AccountingInfoLi6: "Аудиторлық фирмада тағылымдамадан өту мүмкіндігі",
 
-  AccountingInfoCard1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c1a4077963c43cf7508b')).data.kz_text,
-  AccountingInfoCard2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621c22c9d882d4f1cc42121')).data.kz_text,
-  AccountingInfoCard3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f34e401a5f8b3d47855f')).data.kz_text,
-  AccountingInfoCard4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f3a7d244c5da9558a576')).data.kz_text,
+  AccountingInfoCard1: "Менеджмент",
+  AccountingInfoCard2: "Аудит",
+  AccountingInfoCard3: "Маркетинг",
+  AccountingInfoCard4: "Финанс",
   // IT Texts
   ItPage: {
-    title: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f4d0ff19b702c9609820')).data.kz_text,
-    podtitle: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f5398fa730a74f2316c9')).data.kz_text,
+    title: "Бағдарламалық қамтамасыз ету",
+    podtitle: "Басты бет / Бағдарламалық қамтамасыз ету",
   },
 
-  ItH1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f4d0ff19b702c9609820')).data.kz_text,
-  ItH2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f77eff19b702c9609907')).data.kz_text,
-  ItP1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f7dc33ae1fd1526aab4e')).data.kz_text,
-  ItLi1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f890ff19b702c9609a8f')).data.kz_text,
-  ItLi2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621f98bfec79da67c0d9ab2')).data.kz_text,
-  ItLi3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fb48d244c5da9558a8d5')).data.kz_text,
-  ItLi4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fbaeff19b702c9609be9')).data.kz_text,
-  ItLi5: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fc182f005d7bd8f96c4a')).data.kz_text,
-  ItLi6: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fc7ec87807c7c70d32d2')).data.kz_text,
+  ItH1: "Бағдарламалық қамтамасыз ету",
+  ItH2: "Оқытылатын бағыттар",
+  ItP1: "Колледжде сіз ақпараттық технологиялардың әртүрлі аспектілерін, соның ішінде бағдарламалауды, желілік технологияларды және мәліметтер базасын зерттеу арқылы ат дәрежесін ала аласыз. Оқыту бағдарламалық жасақтаманы әзірлеу, жүйелерді басқару және ақпараттық технологиялар жобаларын басқару сияқты көптеген тақырыптарды қамтиды.",
+  ItLi1: "Грантта оқыту",
+  ItLi2: "WorldSkills база компетенциясында оқыту",
+  ItLi3: "IT хакатондар мен StartUp-тарға қатысу",
+  ItLi4: "Модульдерге бөліп оқыту",
+  ItLi5: "Тәжірибелі және озық оқытушылар",
+  ItLi6: "ІТ компанияларда практикадан өту",
 
-  ItCard1: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fcf72f005d7bd8f96d54')).data.kz_text,
-  ItCard2: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fd6a2f005d7bd8f96de1')).data.kz_text,
-  ItCard3: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fdcbc87807c7c70d346e')).data.kz_text,
-  ItCard4: (await axios.get('https://jihc-backend-vercel.vercel.app/api/admin/text/6621fe34d244c5da9558ac2e')).data.kz_text,
+  ItCard1: "UI/UX дизайн",
+  ItCard2: "Графикалық дизайн",
+  ItCard3: "Веб бағдарламалау",
+  ItCard4: "Мобильді бағдарламалау",
+
+  //Pedagokika-matematika
+  PedogogikaMathH1: "Педагогика математика",
+  PedogogikaMathH2: "Оқытылатын пәндер",
+
+  PedogogikaMathP1: "Колледжде сіз әртүрлі математикалық пәндерді, соның ішінде алгебра, геометрия, Математикалық талдау және ықтималдық теориясын оқып, математика пәнінің мұғалімі дәрежесін ала аласыз. Оқуды аяқтағаннан кейін және дәреже алғаннан кейін сіз математиканы орта деңгейде оқытуға кірісе аласыз.",
+  PedogogikaMathP2: "Ағылшын тілін және математиканы тереңдетіп оқыту",
+  PedogogikaMathP3: "Жоғары математиканы меңгеру",
+  PedogogikaMathP4: "Тәжірибелі және озық оқытушылар",
+  PedogogikaMathP5: "Мектептерде тағылымдамадан өту мүмкіндігі",
+  PedogogikaMathP6: "Жоғары математика",
+  PedogogikaMathP7: "Алгебра",
+  PedogogikaMathP8: "Геометрия",
+  PedogogikaMathP9: "Математикалық анализ",
+
+    //PreperationProf
+  PrepProfH1: "Электронды журнал",
+  PrepProfP1: "Edupage-мұғалімдер, студенттер және ата-аналар арасындағы тиімді өзара әрекеттесуді қамтамасыз ететін заманауи колледждер мен мектептер үшін ажырамас құрал. Бұл нақты уақыт режимінде сабақ кестесі, үй тапсырмасы және мектеп өмірінің жаңалықтары туралы жаңартылған ақпаратқа қол жеткізуді жеңілдететін қосымша болып табылады.",
+
+  //Profession description
+  ProfessionDesH1: "КОЛЛЕДЖДЕГІ БІЛІМ БЕРУДІҢ ЖАЛПЫ ҚҰРЫЛЫМЫ",
+  ProfessionDesH2: "КОЛЛЕДЖДЕ ОҚУ ПРОЦЕСІНІҢ ТІЛДІК КАРТАСЫ",
+  ProfessionDesH3: "INFORMATION TECHNOLOGY",
+  ProfessionDesH4: "БІЗ ОНЫҢ КӨПТЕГЕН САЛАЛАРЫН ҚАМТИМЫЗ:",
+  ProfessionDesH5: "СІЗ БОЛА АЛАСЫЗ:",
+  ProfessionDesH6: "ACCOUNTING",
+  ProfessionDesH7: "TEACHER TRAINING (MATHEMATICS)",
+  ProfessionDesH8: "Толығырақ",
+
+  ProfessionDesP1: "Нақты жаратылыстану бағытындағы пәндер ағылшын тілінде оқытылатын мектеп бағдарламасын аяқтау, ағылшын тілін қарқынды меңгеру, математиканы тереңдету және түрік тілінің негіздерін алу.",
+  ProfessionDesP2: "Кәсіби және арнайы пәндерді ағылшын тілінде оқу. ",
+  ProfessionDesP3: "Кәсіби және арнайы пәндерді ағылшын тілінде оқуды жалғастыру және игерілген пәндерді тәжірибеде қолдану үшін өндірісте тәжірибелік сабақтардан өту.",
+
+  ProfessionDesP4: "20% ҚАЗАҚ ТІЛІНДЕ",
+  ProfessionDesP5: "5% ОРЫС ТІЛІНДЕ",
+  ProfessionDesP6: "5% ТҮРІК ТІЛІНДЕ",
+  ProfessionDesP7: "70% АҒЫЛШЫН ТІЛІНДЕ",
+  
+  ProfessionDesP8: "Қазіргі заманғы технологиялар қазір барлық жерде және олар әлемді өзгертеді және күн сайын біздің өмірімізге әсер етеді. АТ-ға жан-жақты және мамандандырылған тәсіл сізде таңдаудың кең ауқымы және үлкен перспективалар бар екенін білдіреді. Біздің серіктестер – қазақстандық ақпараттық технологиялар нарығында мықты позицияға ие компаниялар.",
+  ProfessionDesP9: "Бағдарламалау (Java, Python)",
+  ProfessionDesP10: "Қолданбаларды әзірлеу  (Application development)",
+  ProfessionDesP11: "Графикалық дизайн (Graphic Design)",
+  ProfessionDesP12: "IT менеджмент (IT Management)",
+
+  ProfessionDesP13: "Бағдарламашы (Java, Python)",
+  ProfessionDesP14: "Веб-сайт әзірлеушісі (Full Stack)",
+  ProfessionDesP15: "Дизайнер (Graphic, UX/UI, 3D)",
+  ProfessionDesP16: "Жоба менеджері (Project Manager)",
+
+  ProfessionDesP17: "ОҚУ МЕРЗІМІ 2 жыл 10 ай",
+  ProfessionDesP18: "ОҚУ АҚЫСЫ  Грант (таңдау қатаң түрде 9-сыныптың аттестатына  негізделеді)",
+  ProfessionDesP19: "Грант бөліміне шәкіртақы мен жеңілдіктер әрбір студентке В-дан төмен баға болмаған жағдайда ай сайын  32,000 теңге төленеді.",
+  
+  ProfessionDesP20: "Бухгалтерлік есеп бағдарламасы бухгалтерлік есеп және қаржы саласында теориялық білімі бар, халықаралық қаржылық есептілік стандарттарын білетін, сондай-ақ халықаралық және жергілікті еңбек нарығында жұмыс істеу үшін қажетті кәсіби құзыреттілік пен техникалық дағдыларды меңгерген мамандарды даярлауға бағытталған.",
+  ProfessionDesP21: "Кәсіби оқытушылар мен практиктер біздің бағдарламамызды қолданбалы етіп, түлектердің жұмысқа орналасуының жоғары деңгейін қамтамасыз етеді. ACCA (Association of Chartered Certified Accountants) халықаралық сертификаттау стандарттары біздің бағдарламамызды еңбек нарығының заманауи шешімдеріне толық сәйкес келетін өзекті және жан-жақты болуға бағыттайды.",
+  
+  ProfessionDesP22: "Бухгалтер",
+  ProfessionDesP23: "Менеджер",
+  ProfessionDesP24: "Аналитик",
+  ProfessionDesP25: "Қаржыгер",
+  
+  ProfessionDesP26: "ОҚУ АҚЫСЫ  1 оқу жылына 645 000 теңге (ақылы бөлім, грант қарастырылмаған)",
+  ProfessionDesP27: "ЖЕҢІЛДІКТЕР 1 семестрден кейін тобындағы ең жақсы 5 студентке оқу ақысының 10-нан 20% дейін жеңілдіктер беріледі.",
+
+  ProfessionDesP28: "Бағдарлама педагогика және әдістемелік заманауи оқыту аппаратын жан-жақты іргелі теориялық дайындығын қалыптастыруға, студенттердің педагогика және психология, әдістеме бойынша теориялық және практикалық білімдерін тереңдетуге, ғылымның басқа салаларымен интеграциялау, математиканы оқытудың заманауи тұжырымдамалары мен әдістерін меңгеруге бағытталған. Математика пәнін терең түсіну және білу үшін математика ғылымын тиянақты оқу міндетті.",
+  ProfessionDesP29: "Интеграцияланған пәндік-тілдік оқыту технологиясына, құндылыққа бағдарланған тәрбиеге және математиканы оқытудың қазіргі заманғы әдістеріне сәйкес Үштілділік жағдайында кәсіби қызметті жүзеге асыруға және оңтайландыруға қабілетті ағылшын тілінде оқытатын педагог кадрларды даярлау.",
+
+  ProfessionDesP30: "ОҚУ МЕРЗІМІ  3 жыл 10 ай",
+  ProfessionDesP31: "ОҚУ АҚЫСЫ  Грант (таңдау қатаң түрде 9-сыныптың аттестатына  негізделеді)",
+  ProfessionDesP32: "Грант бөліміне шәкіртақы мен жеңілдіктер әрбір студентке В-дан төмен баға болмаған жағдайда ай сайын 32000 теңге төленеді.",
+
+ StuLifeP1: "Біздің колледждегі студенттік өмір мәдени және спорттық іс - шаралардың алуан түрлілігімен айқын көрінеді және құндылыққа бағытталған білім беру жүйесіне сәйкес келеді - QUNDYLYK.",
+ StuLifeP2: "Жыл сайынғы іс-шаралар мен концерттер студенттерге мәдени әртүрлілікке толығымен енуге мүмкіндік беретін жағымды және шабыттандыратын атмосфера жасайды және біздің оқу орнында достық және жігерлі орта құрайды.",
+ StuLifeP3: "Сонымен қатар, студенттік клубтар мен ұйымдар көшбасшылық пен әлеуметтік жауапкершілік дағдыларын дамытуға ықпал ететін жарыстарды белсенді түрде өткізеді.",
+ StuLifeP4: "Жастар комитеті жөніндегі комитеттердің басшылары студенттік өмірдің жетекшілері болып табылады",
+ StuLifeP5: "ұлдардың студенттік өмірінің жетекшісі. Email:",
+ StuLifeP6: "қыздардың студенттік өмірінің жетекшісі. Email:",
+
+ Stuhouse1: "Колледж әр студентке кампустағы Студенттік үйге (жатақханаға) орналасуға өтініш беру мүмкіндігін ұсынады.",
+ Stuhouse2: "Жатақханада тұру барлық студенттерге өте жоғары білім жүктемесі мен оқудың күрделілігіне байланысты қатаң ұсынылады, 1 курс студенттері үшін студенттің үйінде тұру міндетті екенін білу маңызды",
+ Stuhouse3: "Студенттер студенттің үйіндегі ішкі тәртіп ережелерін сақтауға міндетті.",
+ Stuhouse4: "ЕРЕЖЕ",
+
+ Sponship1: "Түлектер қауымдастығының қауымдастық қызметін дамыту және колледжде әлеуметтік жобаларды іске асыру мақсатында қаржы қаражатын тұрақты жинақтауға арналған ресми платформасы бар.",
+ Sponship2: "Әр түлек өзінің сүйікті колледжіне өз үлесін қоса алады",
+ Sponship3: "Патреонға тіркелу бойынша нұсқаулық",
+ Sponship4: "Колледжге үлес қосу үшін QR кодты сканерлеу арқылы  Patrеon-ға тіркеліңіз",
+
+ CareerH1: "Колледжде кәсіби бағдарлау және мансапты жоспарлау орталығы жұмыс істейді",
+ CareerH2: "1 Кезең - Өзін-Өзі Талдау",
+ CareerH3: "2 Кезең - Әрекет",
+ CareerH4: "3 кезең - Кері байланыс",
+
+ CareerP1: "Біз студенттерге дамудың әрі қарайғы траекториясын дұрыс таңдауға, ЖОО-ға немесе мансапқа түсуді жоспарлауға және даярлықтың жеткілікті жоғары деңгейімен оқу кезеңінде жұмыс іздеуге көмектесуді бастаймыз. Алдымен дайындық кезеңі басталады, содан кейін біз бірге нақты әлемге шығып, дұрыс траекторияны іздейміз.",
+ CareerP2: "Біздің бағдарламамыздың арқасында студенттер мен түлектер еңбек нарығына сенімді шығуға немесе өзі армандаған ЖОО-ға түсуге дайындалуда. Ол үшін біз алдымен мақсат қойып, көп жұмыс жасаймыз, әрбір студенттің жеке тұлғалық қабілетін бірге талдаймыз, өз өсу нүктелерін түсінуге көмектесеміз және ЖОО-ға түсуге дайындықтың дұрыс жолын және де еңбек нарығына шығу жолын таңдаймыз",
+ CareerP3: "Бұл кезеңде студенттер мен түлектер бағдарламаның бірінші кезеңінде алған білімдерін өз бетінше қолдана бастайды. Студенттің өзі университетке түсуге дайындық бағдарламасын жасайды, қажетті емтихандарға дайындала бастайды және университетке құжаттарды тапсыру тәсілін үйренеді немесе өзінің портфолиосын құра бастайды және қажетті жобаларға қатысу, түйіндеме мен ілеспе хаттар жасау, сұхбаттасуға өзін таныстыруға үйрету, талдау арқылы тапсырмаларды орындайды. еңбек нарығы және ең бастысы тәжірибе орнын дұрыс таңдау одан әрі жұмысқа орналастыру мақсатында жұмыс жасайды.",
+ CareerP4: "Сұхбаттан кейін біз атқарылған жұмыстың нәтижесін талқылаймыз. Қателерді талдап, жақсы жақтарын нығайтамыз.",
+ CareerP5: "Орталық басшысы - Жанаев Ғазизбек",
+
+ ComitH1: "Академиялық сапа комитеті",
+ ComitH2: "Тәртіптік комитет",
+
+ ComitP1: "Академиялық сапа комитеті колледждің академиялық қызметі жөніндегі алқалы орган болып табылады. Академиялық сапа жөніндегі комитет жұмысының негізгі бағыттары колледждің ішкі ережелері шеңберінде оқу процесінің тиімділігін арттыру болып табылады. Төмен академиялық жетістіктерді көрсететін студенттер (үш пән бойынша 60 балдан төмен немесе аралық аттестаттау қорытындысы бойынша 1 пән бойынша 50 балдан төмен бағалардың болуы) ата-аналарымен бірге Комитет отырысына шақырылады. Прогресс болмаған жағдайда немесе 1 пән бойынша қорытынды баға 50-ден төмен балл алған жағдайда, комитет студентті басқа колледжге ауыстыруға ұсынады немесе оқудан шығаруға жібереді.",
+ ComitP2: "Тәртіптік комитет колледж студенттерінің колледждің ішкі тәртіпті сақтауын қамтамасыз ету және бақылау жөніндегі алқалы орган болып табылады. Комитет жұмысының негізгі бағыттары колледждің ішкі тәртібін бұзушылықтарды талдау болып табылады. Студенттер колледж қызметкерлерінің іскерлік этиканы бұзу жағдайларын қарау үшін комитетке жүгінуге құқылы. Ішкі тәртіп ережелерін бұзатын студенттер бұзушылықтардың себептерін анықтау үшін комитет отырыстарына (қажет болған жағдайда ата-аналарымен бірге) шақырылады, егер студенттің мінез-құлқында өзгеріс болмаса, комитет студентті басқа колледжге ауыстыруға ұсынады немесе оқудан шығаруға жібереді.",
+
+ ParComit1: "Ата — аналар комитеті-колледж өмірінде маңызды рөл атқаратын маңызды орган. Ол студенттердің ата-аналарының мүдделерін білдіреді және оқу орнының әкімшілігімен тығыз байланыста жұмыс істейді.",  
+ ParComit2: "Ата-аналар комитетінің міндеті-колледждің дамуына ықпал ету және студенттердің білім алуына жақсы жағдай жасау. Ата-аналар комитетінің мүшелері колледж өміріне белсенді қатысады, студенттердің ата-аналарына жиналыстар мен кеңестер өткізеді, педагогикалық құраммен және әкімшілікпен байланыста болады.",  
+ ParComit3: "Ата-аналар комитеті әлеуметтік қайырымдылық жұмыстарымен де белсенді айналысады. Ол мұқтаж студенттерге қаржылық және ұйымдастырушылық қолдау көрсетеді, мәдени-демалыс іс-шараларын ұйымдастырады, басқа білім беру ұйымдарымен ынтымақтастықты дамытуға ықпал етеді. Ата-аналар комитеті студенттерге өздерінің таланттары мен әлеуеттерін дамытуға мүмкіндік беретін қолайлы және әртүрлі білім беру ортасын қамтамасыз етуге арналған.",  
+ ParComit4: "Әр топ әр оқу жылының қыркүйек айында комитетке ата-аналарының арасынан 1 мүшені таңдайды. Ата-аналар комитетінің мүшелері ата-аналар комитетінің төрағасын 1 оқу жылына сайлайды.",  
+ ParComit5: "Ата-аналар комитеті директордың ата-аналармен жұмыс жөніндегі орынбасарларымен тығыз жұмыс жасайды",  
+
+ ConTeacherP1: "Оқытушылармен өзара іс - қимыл негізінен ата-аналармен және студенттермен ресми байланыс арналары-Edupage (колледждегі электрондық портал) арқылы жүзеге асырылады. Әрбір ата-ана Edupage-ге тіркелуге және қосымшаны смартфонға орнатуға міндетті. Оқытушыларға барлық сұрақтар мен өтініштер Edupage арқылы жіберілуі керек. Оқытушылар да Edupage арқылы ата-аналармен қарым-қатынаста болады.",
+ ConTeacherP2: "Ата-аналардың оқытушылармен (бетпе-бет) тиімді офлайн кездесулерін қамтамасыз ету үшін әр семестрде 'Ата-аналардың оқытушылармен кездесулері' ұйымдастырылады. Осы кездесулерде әрбір ата-ана мен оқытушының білім беру аспектілерін жеке талқылауға мүмкіндігі бар.",
+ ConTeacherP3: "Мұғаліммен жоспардан тыс кездесу қажет болған жағдайда Edupage арқылы алдын-ала байланысу керек, мұғалім міндетті түрде жауап береді және кездесу уақыты мен күні бойынша бірнеше нұсқаны ұсынады, ата-ана дұрыс уақытты таңдап, колледжге келгенде мұғаліммен кездесуге келеді.",
+ ConTeacherP4: "Ата-аналарға сабаққа қатысуға рұқсат етілмейді.",
+
+ WorkP1: "JIHC 'БІЛІМ-ИННОВАЦИЯ' халықаралық қоғамдық қорының басшылығымен және 'SDU University' қамқорлығымен білім беру мекемелерінің желісіне кіретін мемлекеттік колледж болып табылады",
+ WorkP2: "Инновациялық тәсілдермен, ағылшын тіліндегі білім беру саясатымен және құндылыққа бағытталған тәрбиемен JIHC 1993 жылдан бастап елдегі кәсіптік - техникалық білім берудің флагманы болып табылады.",
+ WorkP3: "Колледж серіктестердің қажеттіліктеріне сұранысқа ие мамандарды даярлау мақсатында өзекті оқу бағдарламаларын құру арқылы жұмыс берушілермен тығыз өзара іс-қимылға ашық.",
+ WorkP4: "Қазіргі уақытта колледж келесі серіктестермен тығыз жұмыс істейді",
+ WorkP5: "Біз өзіміздің кадрлық әлеуетімізді арттыруға мүдделі ұйымдармен ынтымақтастыққа ашықпыз",
+ WorkP6: "Орталық басшысы-Жанаев Ғазизбек",
+
+ Calendar: "Бұл бөлімде сіз Google Calendar арқылы көрсетілетін колледждегі барлық маңызды оқиғаларды көресіз.",
+
+ Edupage: "Оқытушылармен өзара іс - қимыл негізінен ата-аналармен және студенттермен ресми байланыс арналары-Edupage (колледждегі электрондық портал) арқылы жүзеге асырылады. Әрбір ата-ана Edupage-ге тіркелуге және қосымшаны смартфонға орнатуға міндетті. Оқытушыларға барлық сұрақтар мен өтініштер Edupage арқылы жіберілуі керек. Оқытушылар да Edupage арқылы ата-аналармен қарым-қатынаста болады.",
+
+  ContactP1: "Құндылыққа бағытталған білім беру тұжырымдамасы - колледж мен студенттердің ата-аналары арасындағы тығыз қарым-қатынастың маңызды шарты болып табылады. Тәрбие және білім беру процестері мұғалімдер мен ата-аналар арасында тығыз үйлестірілуі керек. Колледжде жүзеге асырылып жатқан процестерді толық түсіну үшін ата аналар жүйелі түрде келесі іс шараларды өткізеді:",
+  ContactP2: "Топ кураторлары мен тәрбиешілерінің басшылығымен семестрде 1 рет ата аналар жиналысын өткізу",
+  ContactP3: "Оқу жылы ішінде әр ата-ананы тәрбие сағатына шақыру",
+  ContactP4: "Ата-аналардың белсенді қатысуымен спорттық және мәдени іс-шараларды ұйымдастыру (Наурыз, Этикалық кештер және т. б.)",
+  ContactP5: "Студенттің отбасына 1 курс ішінде 1 рет бару",
+  ContactP6: "Колледжге түсу жоспарын бекіту және/немесе мансапты жоспарлау үшін ата-ананы колледжде оқудың соңғы жылында колледжге шақыру",
+  ContactP7: "Семестрде 1 рет студенттің үлгерімін талдау үшін 'Ата-аналар мен оқытушылар кездесулерін' ұйымдастыру",
+  ContactP8: "Қажет болған жағдайда ата-ананы академиялық сапа комитетінің және/немесе тәртіптік кеңестің отырыстарына шақыру",
+  ContactP9: "Ата-аналарға арналған үйірмелер ұйымдастыру",
+  ContactP10: "'Аналар академиясы' және 'Әкелер кеңесі' жұмыс жоспарын іске асыру",
+  ContactP11: "Ата-аналармен жұмысты директордың ата-аналармен жұмыс жөніндегі орынбасарлары ұйымдастырады.",
 };

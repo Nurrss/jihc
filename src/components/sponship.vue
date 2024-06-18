@@ -8,19 +8,16 @@
           Patreon Jameco <br />Alumni
         </h1>
         <p class="">
-          Ассоциация выпускников имеет официальную платформу для регулярной
-          аккумуляции финансовых средств с целью развития деятельности
-          ассоциации и реализации социальных проектов в колледже.
+          {{ $t("Sponship1") }}
         </p>
         <p>
-          Каждый выпускник может внести свой посильный вклад в свой любимый
-          колледж
+          {{ $t("Sponship2") }}
         </p>
         <a href="https://www.patreon.com/JAMECO_ALUMNI"
           >https://www.patreon.com/JAMECO_ALUMNI</a
         >
         <p>
-          Руководство по регистрации в патреон:
+          {{ $t("Sponship3") }}
           <a href="https://www.instagram.com/jamecoalumni.kz/"
             >https://www.instagram.com/jamecoalumni.kz/</a
           >
@@ -33,8 +30,7 @@
         <img src="../assets/spons.png" alt="" class="img-fluid i" />
         <div class="d-flex">
           <p>
-            Зарегистрируйтесь в Patreon, чтобы внести свой вклад в колледж,
-            отсканировав QR-код
+            {{ $t("Sponship4") }}
           </p>
           <img src="../assets/qr.png" class="img-fluid" alt="" />
         </div>

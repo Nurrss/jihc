@@ -4,14 +4,10 @@
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
-        <h3 style="color: #0077ff">Педагогика математика</h3>
+        <h3 style="color: #0077ff">{{ $t("PedogogikaMathH1") }}</h3>
         <hr />
         <p class="">
-          В колледже вы можете получить степень математического преподавателя,
-          изучая различные математические дисциплины, включая алгебру,
-          геометрию, математический анализ и теорию вероятностей. После
-          завершения обучения и получения степени, вы сможете приступить к
-          преподаванию математики на среднем уровне.
+        {{ $t("PedogogikaMathP1") }}
         </p>
         <ul
           class="navbar-nav justify-content-end flex-grow-1 pe-3 align-self-center d-flex"
@@ -26,7 +22,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Углубленное изучение английского и математики</p>
+              <p class="m-0">{{ $t("PedogogikaMathP2") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -39,7 +35,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Изучение высшей математики</p>
+              <p class="m-0">{{ $t("PedogogikaMathP3") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -52,7 +48,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Опытные и продвинутые преподаватели</p>
+              <p class="m-0">{{ $t("PedogogikaMathP4") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -65,7 +61,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Возможность начать стажироваться в школах</p>
+              <p class="m-0">{{ $t("PedogogikaMathP5") }}</p>
             </div>
           </li>
         </ul>
@@ -81,7 +77,7 @@
   <div class="container d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
-        Обучаемые предметы
+        {{ $t("PedogogikaMathH2") }}
         <hr />
       </h1>
 
@@ -90,26 +86,26 @@
           class="col d-flex flex-column gap-1 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Pedogogikacard1.png" alt="" /></i>
-          <p class="fw-medium">Высшая математика</p>
+          <p class="fw-medium">{{ $t("PedogogikaMathP6") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Pedogogikacard2.png" alt="" /></i>
-          <p class="fw-medium">Алгебра</p>
+          <p class="fw-medium">{{ $t("PedogogikaMathP7") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Pedogogikacard3.png" alt="" /></i>
-          <p class="fw-medium">Геометрия</p>
+          <p class="fw-medium">{{ $t("PedogogikaMathP8") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Pedogogikacard4.png" alt="" /></i>
 
-          <p class="fw-medium">Математический анализ</p>
+          <p class="fw-medium">{{ $t("PedogogikaMathP9") }}</p>
         </div>
       </div>
     </div>

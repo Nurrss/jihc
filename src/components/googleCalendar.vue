@@ -1,8 +1,7 @@
 <template>
   <div class="container py-5 align-items-center d-flex flex-column">
     <p class="text-center">
-      В данном разделе вы видите все важные ивенты в колледже отображаемые через
-      Google Calendar
+      {{ $t("Calendar") }}
     </p>
 
     <iframe
