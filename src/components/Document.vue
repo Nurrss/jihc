@@ -67,32 +67,52 @@
       >
     </div>
     <div class="link-container mb-3">
-      <p class="p-0 m-0">Противодействие коррупции и комплаенс сервис:</p>
+      <p class="p-0 m-0">Комплаенс служба:</p>
+
       <a
-        href=" https://drive.google.com/file/d/14OtLIZdEZGAQ60Mx89vfnMPh_YePCKs1/view?usp=sharing"
+        href="https://drive.google.com/file/d/1YrjURjAh8k6a6GXMA3XnrgMhbr96J-p7/view?usp=sharing"
         class="link-item"
       >
-        Cервис 1</a
+        Жемқорлыққа қарсы нұсқаулық</a
       >
       <a
-        href="https://drive.google.com/file/d/1zlgOuP-xXgcsDwJ2KWQJgoTRXx8FckPt/view?usp=sharing"
+        href="https://drive.google.com/file/d/1nVgkTALsDDEqHqTeq8tmWITbpi5DqnOK/view?usp=sharing"
         class="link-item"
       >
-        Cервис 2</a
+        Әдеп кодексі</a
       >
       <a
-        href="https://drive.google.com/file/d/1X08f0MgkGzQFyMLIOGz6HIkU3Cud9vX-/view?usp=sharing"
+        href="https://drive.google.com/file/d/1HVihex9PfjBt06n4AP7IFCAEeFU1G5oT/view?usp=sharing"
         class="link-item"
       >
-        Cервис 3</a
+        Жемқорлыққа қарсы комплеанс қызметін ұйым</a
       >
       <a
-        href="https://drive.google.com/file/d/1dEjQX0PxP3LbtvE3-MpObo2Z7Y_ZLjwA/view?usp=sharing"
+        href="https://drive.google.com/file/d/1CzmGIPcBh_j9znkSiyCPtmcs5Z-eoqUv/view?usp=sharing"
         class="link-item"
       >
-        Cервис 4</a
+        Сыбайлас жемқорлыққа қарсы стандарты</a
       >
+      <a
+        href="https://drive.google.com/file/d/1r4nOJU35d3iV1UpKGQQyANhGy2muCUmF/view?usp=sharing"
+        class="link-item"
+      >
+        Корпоративно-этический кодекс</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1yLVYHGAHuHFKDwPKZAroAOGbaUZNernp/view?usp=sharing"
+        class="link-item"
+      >
+        Сыбайлас жемқорлыққа қарсы саясаты</a
+      >
+      <a
+        href="https://docs.google.com/document/d/1jWSGgsM7v2rrh7fW-7xA0ew18M5q6GS8/edit?usp=sharing&ouid=105621524366983933022&rtpof=true&sd=true"
+        class="link-item"
+      >
+        Бұйрық
+      </a>
     </div>
+
     <div class="link-container mb-3">
       <a
         href="https://drive.google.com/file/d/1tpbimZU4h1OCVcRlVQXd5ctmDe6KK_JS/view?usp=sharing"
