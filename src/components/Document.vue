@@ -94,6 +94,67 @@
       >
       {{ $t("DocumentP13") }}
       </a>
+       <a
+        href="https://drive.google.com/file/d/1YrjURjAh8k6a6GXMA3XnrgMhbr96J-p7/view?usp=sharing"
+        class="link-item"
+      >
+        Жемқорлыққа қарсы нұсқаулық</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1nVgkTALsDDEqHqTeq8tmWITbpi5DqnOK/view?usp=sharing"
+        class="link-item"
+      >
+        Әдеп кодексі</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1HVihex9PfjBt06n4AP7IFCAEeFU1G5oT/view?usp=sharing"
+        class="link-item"
+      >
+        Жемқорлыққа қарсы комплеанс қызметін ұйым</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1CzmGIPcBh_j9znkSiyCPtmcs5Z-eoqUv/view?usp=sharing"
+        class="link-item"
+      >
+        Сыбайлас жемқорлыққа қарсы стандарты</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1r4nOJU35d3iV1UpKGQQyANhGy2muCUmF/view?usp=sharing"
+        class="link-item"
+      >
+        Корпоративно-этический кодекс</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1yLVYHGAHuHFKDwPKZAroAOGbaUZNernp/view?usp=sharing"
+        class="link-item"
+      >
+        Сыбайлас жемқорлыққа қарсы саясаты</a
+      >
+      <a
+        href="https://docs.google.com/document/d/1jWSGgsM7v2rrh7fW-7xA0ew18M5q6GS8/edit?usp=sharing&ouid=105621524366983933022&rtpof=true&sd=true"
+        class="link-item"
+      >
+        Бұйрық
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1NmIfaa3p_p5NxihS7dXheYWeZp7Mf6ew/view?usp=sharing"
+        class="link-item"
+      >
+        План меропртятий
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1x8qhIaymAo3Lol6i04xERQEbHcpvatK_/view?usp=sharing"
+        class="link-item"
+      >
+        Рекомендации
+      </a>
+      <a
+        href="https://docs.google.com/document/d/1fIpizk5cBrQ0u0MHEBF6_8BlcPCdoyYC/edit?usp=sharing&ouid=105621524366983933022&rtpof=true&sd=true"
+        class="link-item"
+      >
+        Об утверждении Типового положения об антикоррупционных комплаенс-службах
+        в субъектах квазигосударственного сектора
+      </a>
     </div>
     <div class="link-container mb-3">
       <a
