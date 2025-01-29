@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import { createI18n } from "vue-i18n";
 import ru from "./locales/ru";
 import kz from "./locales/kz";
+import en from "./locales/en";
 import axios from "axios";
 // main.js
 
@@ -17,6 +18,7 @@ const i18n = createI18n({
   messages: {
     kz,
     ru,
+    en,
   },
 });
 

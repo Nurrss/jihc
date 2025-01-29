@@ -20,13 +20,19 @@
           {{ $t("JumbotronP1P3") }}
         </p>
         <p>
-          {{ $t("JumbotronP1P4") }} <br> {{ $t("JumbotronP1P5") }}
+          {{ $t("JumbotronP1P4") }} <br />
+          {{ $t("JumbotronP1P5") }}
         </p>
       </div>
       <div
         class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
       >
-        <img src="../assets/Director.png" alt="" class="img-fluid" />
+        <img
+          src="../assets/dir.jpeg"
+          alt=""
+          class="img-fluid rounded mx-auto"
+          style="height: 600px"
+        />
       </div>
     </div>
   </section>

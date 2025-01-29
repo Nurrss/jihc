@@ -83,6 +83,14 @@
                   Рус
                 </button>
               </li>
+              <li>
+                <button
+                  class="dropdown-item"
+                  @click="changeLanguage('en', 'Eng')"
+                >
+                  Eng
+                </button>
+              </li>
             </ul>
           </li>
         </ul>
@@ -115,6 +123,8 @@ export default {
         return "Қаз";
       } else if (locale === "ru") {
         return "Рус";
+      } else if (locale === "en") {
+        return "Eng";
       }
       return locale;
     },
@@ -124,7 +134,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .immg {
   background-image: url("../assets/jihc-logo-sdu-v2.svg");
   height: 35px;

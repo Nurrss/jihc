@@ -34,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-md-center navbargo"
+            class="collapse navbar-collapse justify-content-md-around navbargo"
             id="navbarsExample10"
           >
             <ul class="navbar-nav">

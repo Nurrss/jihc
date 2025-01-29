@@ -24,7 +24,7 @@
         <ul class="navbar-nav">
           <li>
             <router-link to="/" exact class="nav-link active" href="#">
-              Главная
+              {{ $t("ThirdNavNavItem0") }}
             </router-link>
           </li>
 

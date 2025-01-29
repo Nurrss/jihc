@@ -43,8 +43,11 @@
             ></a>
           </li>
         </ul>
-        <a class="navbar-brand d-flex justify-content-center align-items-center gap-2" href="https://go.2gis.com/vda30k">
-          <img class="h4" src="../assets/location.png" alt="">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center gap-2"
+          href="https://go.2gis.com/vda30k"
+        >
+          <img class="h4" src="../assets/location.png" alt="" />
           {{ $t("NavbarP1") }}
         </a>
       </div>
